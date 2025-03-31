@@ -22,4 +22,6 @@ app.listen(port, () => {
   console.log(`Listening http://localhost:${port}`);
 });
 
+console.log("Mensagem da feature");
+
 module.exports = app;
