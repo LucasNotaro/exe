@@ -1,16 +1,18 @@
 {
   "name": "api-exemplo",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Exemplo de API NodeJs para teste de uma pipeline CI",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
     "build": "echo 'Building project...' && mkdir -p dist && cp -r src/* dist/",
-   "test": "jest --forceExit",
+    "test": "jest --forceExit",
     "semantic-release": "semantic-release"
   },
   "release": {
-    "branches": ["master"]
+    "branches": [
+      "master"
+    ]
   },
   "author": "Fatec Votorantim - DSM",
   "license": "ISC",
